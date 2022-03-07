@@ -13,6 +13,7 @@
   height: 600px;
   margin: 20px auto;
   background-color: palegreen;
+  /* position: relative; */
 }
 
 .upper-row {
@@ -24,3 +25,18 @@
   height: 300px;
   background-color: blue;
 }
+
+.box {
+  display: inline-block;
+  height: 300px;
+  width: 30%;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.green {
+  background-color: green;
+}
+
