@@ -75,6 +75,15 @@ body {
   display: inline-block;
 }
 
+.card-text h3 {
+  text-transform: uppercase;
+}
+
+.price {
+  color: red;
+  font-weight: bold;
+}
+
 
 
 
