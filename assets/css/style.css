@@ -10,6 +10,7 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
+  font-size: x-small;
 }
 
 .container {
@@ -26,6 +27,7 @@ body {
 
 .card-image {
   position: relative;
+  margin-bottom: 5px;
 }
 
 .card-image img {
@@ -52,17 +54,25 @@ body {
 }
 
 .card-discount {
-  background-color: red;
+  background-color: #eb0037;
   color: white;
   padding: 5px;
   font-weight: bold;
 }
 
 .card-tag {
-  background-color: green;
+  background-color: #00875a;
   color: white;
   padding: 5px;
   font-weight: bold;
+}
+
+.card-image:hover .first-image {
+  display: none;
+}
+
+.card-image:hover .second-image {
+  display: inline-block;
 }
 
 
