@@ -58,5 +58,14 @@ body {
   font-weight: bold;
 }
 
+.card-tag {
+  background-color: green;
+  color: white;
+  padding: 5px;
+  font-weight: bold;
+}
+
+
+
 
 
